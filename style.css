@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+#wrapper
+{
+	width:cover;
+	margin:0 auto 0;
+}
+li
+{
+	list-style:none;
+	display:inline;
+	margin-left:45px;
+	width:100px;
+	height:50px;
+}
+ul
+{
+	background-color:#333;
+	font-family:Arial,Verdana;
+	font-size:25px;
+	color:white;
+
+}
+li:hover
+{
+	border-left:1px solid blue;
+	border-right:1px solid blue;	
+	background-color:white;
+	color:black;
+	font-size:50px;
+	width:150px;
+	height:100px;
+	transition:width 1s ease-in,height 1s ease-in,background-color 1.5s ease-in;color 2s ease-in; font-size 4s linear, border-left 1s ease-in , border-right 1s ease-in;
+}
+li:not(:hover)
+{
+	border-left: 0px;
+	border-right: 0px;
+	background-color:#333;
+	color:white;
+	font-size:25px;
+	transition:background-color 1.5s ease-out;color 2s ease-out; font-size 4s linear, border-left 1s ease-out , border-right 1s ease-out;
+	
+}
+#content
+{
+	background-color:yellow;
+	width:cover;
+	height:945px;
+	box-shadow: 0px 0px 10px;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}
+.text
+{
+	color:white;
+	font-size:25px;
+	font-family: 'Slabo 27px', serif;
+}
+.text span
+{
+	font-weight:bold;
+	text-align:centre;
+}
